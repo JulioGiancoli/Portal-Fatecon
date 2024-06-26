@@ -1,0 +1,65 @@
+.espaco{
+    margin-top: 50px;
+}
+.img_perfil{
+    width: 300px;
+    height: 500px;
+}
+.Nome{
+    
+    font-size: 100px;
+    font-weight: bolder;
+    color: #F7B323;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+.foto{
+    margin-top: 50px;
+
+}
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin: auto;
+}
+.img_perfil{
+    margin: 10px;
+    width: auto;
+    margin: auto;
+}
+.info_geral{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+.logo_insta{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.descricao{
+    margin: 30px 5% 30px 5%;
+}
+.obras{
+    font-size: 120px;
+    font-weight: bolder;
+    color: #F7B323;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+.livros img{
+    padding-bottom: 30px;
+
+}
+@media screen and (max-width: 1024px){
+    .obras_artista{
+        width: 300px;
+    }
+}
+.livros{
+    width: 33%;
+}
+.gibis{
+    display: flex;
+}
